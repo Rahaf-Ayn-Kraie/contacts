@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Rahaf A.K">
+    <meta name="description" content="My web page">
+    <meta name="Keyword" content="html,css,web,seo,web development">
+    <title>Contacts</title>
+    <link rel="icon" href="./assets/img/photo.webp" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,200..400;1,200..400&display=swap">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/mrspecht/cdn/reset.css" media="all">
+    <link rel="stylesheet" href="./assets/css/style.css" media="all">
+    <script src="./assets/js/script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">Contacts</h1>
+      <div class="contact">
+        <form class="contact-form">
+          <input type="text" class="name-input" placeholder="Name" required>
+          <input type="text" class="city-input" placeholder="City" required>
+          <input type="email" class="email-input" placeholder="Email" required>
+          <button type="submit" class="add-button">Add</button>
+        </form>
+        <p class="error-message"></p>
+        <h2 class="save-contacts">Saved contacts: <span class="count-numbers">0</span></h2>
+        <section class="contact-list">
+        </section>
+      </div>
+    </div>
+  </body>
+</html>
